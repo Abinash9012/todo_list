@@ -15,7 +15,7 @@ This is a simple Todo List application built with React, allowing users to creat
 
 ## Demo
 
-You can see a live demo of the app [here](#) [Provide a link to your deployed app if available].
+You can see a live demo of the app [here](http://localhost:3000/) [Provide a link to your deployed app if available].
 
 ## Installation
 
