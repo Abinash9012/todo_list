@@ -1,6 +1,6 @@
 # React Todo List App
 
-![Todo List App](/todo_list.png);
+![Todo List App](/todo_list.png)
 
 This is a simple Todo List application built with React, allowing users to create, edit, and manage their tasks.
 
