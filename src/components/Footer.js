@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   let footerStyle = {
-    position: "absolute",
-    bottom: "0px",
+    position: "relative",
+    top: "30vh",
     width: "100%",
   };
 
@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="bg-dark text-light" style={footerStyle}>
       <p
         className="text-center py-1"
-        style={{ fontSize: "23px", fontWeight: "bold" }}
+        style={{ fontSize: "16px", fontWeight: "400" }}
       >
         Copyright &copy; Mytodos.com
       </p>

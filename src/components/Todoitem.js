@@ -14,6 +14,8 @@ const Todoitem = ({ todos, onDelete }) => {
           }}
         >
           Delete
+          
+          <i className="fa fa-trash fa-bounce mx-2"></i>
         </button>
       </div>
     </>

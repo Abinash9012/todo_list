@@ -5,7 +5,7 @@ import Todoitem from "./Todoitem";
 const Todos = ({ todos, onDelete }) => {
   return (
     <>
-      <h3 className="text-center my-3">My todo List</h3>
+      <h3 className="text-center my-3">My Todo List</h3>
       <div className="container my-3 todo">
         {todos.length === 0 ? (
           <h4 className="text-center my-3 text-danger w-100">

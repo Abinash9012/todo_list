@@ -1,7 +1,10 @@
 import React from "react";
 
-
 function Navbar({ title }) {
+  const submit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <nav className="navbar navbar-expand-lg bg-dark">
       <div className="container-fluid">
@@ -63,7 +66,7 @@ function Navbar({ title }) {
               </ul>
             </li>
           </ul>
-          <form className="d-flex" role="search">
+          <form className="d-flex" role="search" onSubmit={submit}>
             <input
               className="form-control me-2"
               type="search"
