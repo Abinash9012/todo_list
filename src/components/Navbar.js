@@ -1,4 +1,6 @@
 import React from "react";
+// import { Link } from "react-router-dom";
+
 
 function Navbar({ title }) {
   const submit = (e) => {
@@ -30,11 +32,11 @@ function Navbar({ title }) {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="/">
+              <a className="nav-link text-light" href="/about">
                 About
               </a>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle text-light"
                 href="/"
@@ -64,7 +66,7 @@ function Navbar({ title }) {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
           <form className="d-flex" role="search" onSubmit={submit}>
             <input
