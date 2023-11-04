@@ -79,7 +79,7 @@ This project is open source and available under the [MIT License](LICENSE.md).
 
 If you have any questions or suggestions, please feel free to reach out to me:
 
-- Email: [your-email@example.com](mayurkapadi12@gmail.com)
-- GitHub: [your-username](https://github.com/mkkapadi12)
+- Email: [mayurkapadi12@gmail.com]
+- GitHub: [https://github.com/mkkapadi12]
 
-Happy task management with your new React Todo List app! 📝📅
+Happy task management with My new React Todo List app! 📝📅
