@@ -2,31 +2,84 @@
 
 ![Todo List App](/todo_list.png)
 
-This is a simple Todo List application built with React, allowing users to create, edit, and manage their tasks.
+This is a simple Todo List application built using React JS. It allows you to add, edit, and delete tasks, as well as mark them as completed or incomplete. The app provides a user-friendly interface to manage your daily tasks and stay organized.
 
 ## Features
 
-- Add new tasks with a title and optional description.
-- Mark tasks as completed.
-- Edit existing tasks.
-- Delete tasks.
+- Add new tasks with a title and description.
+- Edit existing tasks to update their details.
+- Mark tasks as completed or incomplete.
+- Delete tasks that are no longer needed.
 - Filter tasks by their completion status (All, Active, Completed).
-- Clear all completed tasks with one click.
+- Clear all completed tasks in one click.
 
-## Demo
+## Getting Started
 
-You can see a live demo of the app [here](http://localhost:3000/).
+To run this application locally, follow these steps:
 
-## Installation
+1. **Clone the Repository**
 
-To run this app locally, follow these steps:
-
-1. Clone this repository.
-   ```bash
-   git clone https://github.com/your-username/react-todo-list.git
+   ```
+   git clone https://github.com/mkkapadi12/todo_list.git
    cd react-todo-list
    ```
 
-Thank you for using the React Todo List App!
+2. **Install Dependencies**
 
-You should customize this template to match your specific project details, including the demo link, installation instructions, and contact information. Don't forget to include a screenshot or GIF of your app in action as well. This README should give users all the information they need to understand, use, and potentially contribute to your project on GitHub.
+   ```
+   npm install
+   ```
+
+3. **Run the Development Server**
+
+   ```
+   npm start
+   ```
+
+4. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to use the app.
+
+## Usage
+
+- To add a new task, simply enter a title and an optional description, and press Enter or click the "Add" button.
+- To edit a task, click the edit icon (pencil) next to the task and make the necessary changes.
+- To mark a task as completed, click the checkbox on the left of the task. To mark it as incomplete, click it again.
+- To delete a task, click the "X" icon next to the task.
+- Use the filter buttons at the bottom to view All, Active, or Completed tasks.
+- To clear all completed tasks, click the "Clear Completed" button.
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- Create React App: A tool to set up a new React project quickly.
+- React Hooks: Used to manage state and side effects.
+- Local Storage: Used to store tasks in the browser for persistence.
+
+## Folder Structure
+
+- `src/` contains the main source code of the application.
+- `src/components/` holds React components used in the app.
+- `src/App.js` is the root component where the application starts.
+- `src/App.css` contains the CSS styles for the app.
+
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch with a descriptive name.
+3. Make your changes and commit them.
+4. Push your branch to your fork.
+5. Create a pull request to the original repository.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE.md).
+
+## Contact
+
+If you have any questions or suggestions, please feel free to reach out to me:
+
+- Email: [your-email@example.com](mayurkapadi12@gmail.com)
+- GitHub: [your-username](https://github.com/mkkapadi12)
+
+Happy task management with your new React Todo List app! 📝📅
